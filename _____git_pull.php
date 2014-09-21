@@ -1,7 +1,1 @@
-<?php 
-
-print_r($_POST); exit;
-
-`git pull`; 
-
-?>
+<?php `git pull`; ?>
