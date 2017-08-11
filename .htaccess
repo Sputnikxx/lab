@@ -2,7 +2,7 @@ SetEnv HTTP_FOOBAR foobar
 
 RewriteEngine on
 # RewriteRule ^.*\.git.* - [R=404]
-RewriteRule ^(.*).git/?(.*)$ /$1 [R=404,NC,L]
+RewriteRule ^.git/(.*)$ /$1 [R=404,NC,L]
 
 ErrorDocument 401 401.html
 ErrorDocument 403 403.html
